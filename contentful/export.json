@@ -146,6 +146,16 @@
           "omitted": false
         },
         {
+          "id": "year",
+          "name": "Year",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
           "id": "content",
           "name": "Content",
           "type": "RichText",
@@ -377,6 +387,11 @@
       "controls": [
         {
           "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "year",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },

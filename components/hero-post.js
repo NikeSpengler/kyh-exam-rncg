@@ -1,14 +1,15 @@
 import Link from 'next/link'
-import Avatar from '../components/avatar'
-import DateComponent from '../components/date'
+// import Avatar from '../components/avatar'
+// import DateComponent from '../components/date'
 import CoverImage from '../components/cover-image'
 
 export default function HeroPost({
   title,
   coverImage,
-  date,
   excerpt,
-  author,
+  year,
+  // date,
+  // author,
   slug,
 }) {
   return (
@@ -23,13 +24,18 @@ export default function HeroPost({
               {title}
             </Link>
           </h3>
-          <div className="mb-4 md:mb-0 text-lg">
+          <p className="text-lg leading-relaxed mb-4">
+            <Link href={`/posts/${slug}`} className="hover:underline">
+              {year}
+            </Link>
+          </p>
+          {/* <div className="mb-4 md:mb-0 text-lg">
             <DateComponent dateString={date} />
-          </div>
+          </div> */}
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          {author && <Avatar name={author.name} picture={author.picture} />}
+          {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
         </div>
       </div>
     </section>

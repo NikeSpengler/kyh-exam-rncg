@@ -10,6 +10,7 @@ import SectionSeparator from '../../components/section-separator'
 import Layout from '../../components/layout'
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
+// import PostYear from '../../components/post-year'
 import { CMS_NAME } from '../../lib/constants'
 
 export default function Post({ post, morePosts, preview }) {
@@ -36,6 +37,7 @@ export default function Post({ post, morePosts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
+                year={post.year}
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
