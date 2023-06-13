@@ -1,6 +1,6 @@
 # Examwork for KYH Professional School
 
-Examwork for KYH Professional School, created with: React, Next.js, Tailwind, Contentful and GraphQL.
+Examwork for KYH Professional School, created with: React, Next.js, Tailwind, Contentful and GraphQL
 
 ## Demo
 
