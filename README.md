@@ -16,4 +16,4 @@ The aim is to make learning joyful and easy to read. Usability is important!
 
 
 
-<img width="199" alt="Skärmavbild 2023-05-24 kl  14 13 42" src="https://github.com/NikeSpengler/kyh-exam-rncg/assets/32640656/bcd18d51-1627-4705-b584-4988c1db518d">
+
