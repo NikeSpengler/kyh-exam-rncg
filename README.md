@@ -1,4 +1,4 @@
-# Next app
+# Next.js app
 
 ## Built in:
 React, Next.js, Tailwind, Contentful and GraphQL
